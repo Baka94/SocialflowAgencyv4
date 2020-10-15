@@ -108,7 +108,7 @@ const projectsData = [
       "https://socialflowagency.com/wp-content/uploads/2020/10/Far-Cray-5-Cartoni-Morti.jpg",
     logoImg:
       "https://socialflowagency.com/wp-content/uploads/2019/03/ubilogo_h-1.png",
-    title: "Far Cray 5 Expansion",
+    title: "Gamestop Live Entretainment",
     text:
       "The Youtuber and cartoonist, Cartoni Morti has made an animated video published on Youtube and Facebook focused on the video game: Far Cry. The video resonated with the public, quickly becoming viral and reaching over 1.5 million people.",
     stat1: {
