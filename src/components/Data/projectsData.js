@@ -108,7 +108,7 @@ const projectsData = [
       "https://socialflowagency.com/wp-content/uploads/2020/10/Far-Cray-5-Cartoni-Morti.jpg",
     logoImg:
       "https://socialflowagency.com/wp-content/uploads/2019/03/ubilogo_h-1.png",
-    title: "Gamestop Live Entretainment",
+    title: "Far Cray 5 Expansion",
     text:
       "The Youtuber and cartoonist, Cartoni Morti has made an animated video published on Youtube and Facebook focused on the video game: Far Cry. The video resonated with the public, quickly becoming viral and reaching over 1.5 million people.",
     stat1: {
@@ -133,7 +133,7 @@ const projectsData = [
       "https://socialflowagency.com/wp-content/uploads/2020/10/605ea76b-2128-4049-85e5-25f0160532d5.jpg",
     logoImg:
       "https://socialflowagency.com/wp-content/uploads/2019/05/GameStop.png",
-    title: "Far Cray 5 Expansion",
+    title: "Gamestop Live",
     text:
       "On October 12th one of the biggest Social Flow Party events ever took place! The turnout was 3 times what we expected, to celebrate one of our talents, Serena Puppo, performed live with her first single Titanic. We let you judge by yourself with the photo taken on the stage and you will also find the videos on our instagram profile @socialflowagency.",
     stat1: {
