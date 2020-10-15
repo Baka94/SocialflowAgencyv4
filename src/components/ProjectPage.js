@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, history } from "react-router-dom";
+import { Link, History } from "react-router-dom";
 
 import projectsData from "./Data/projectsData.js";
 import SvgIcons from "./SvgIcons.js";
@@ -16,11 +16,11 @@ export default class ProjectPage extends Component {
   }
 
   componentDidMount() {
-    var History = history;
+    var Histo = History;
     if (this.state.nextProject === projectsData.lenght - 1) {
       this.setState({
         nextProject: 0,
-        history: History
+        history: Histo
       });
     }
   }
