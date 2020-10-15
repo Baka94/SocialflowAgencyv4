@@ -13,7 +13,7 @@ export default class FilterBlurImg extends Component {
     return (
       <div className="filterBlurImgContainer">
         <div
-          class="filterBlurImg"
+          className="filterBlurImg"
           style={{
             backgroundImage: "url(" + this.props.img + ")"
           }}

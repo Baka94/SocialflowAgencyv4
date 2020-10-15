@@ -98,8 +98,8 @@ export default class ServicesSection extends Component {
             <h5> Advertising </h5>
             <h2> Influencer Marketing </h2>
           </div>
-          <button class="circleBtn circleBtnLight plusButton">
-            <span class="circleBtnIcon">+</span>
+          <button className="circleBtn circleBtnLight plusButton">
+            <span className="circleBtnIcon">+</span>
           </button>
         </Link>
 
@@ -113,16 +113,16 @@ export default class ServicesSection extends Component {
               : this.state.passiveStyle
           }
         >
-          <div class="digitalCreations">
-            <div class="digitalPc">
-              <div class="searchBox">
+          <div className="digitalCreations">
+            <div className="digitalPc">
+              <div className="searchBox">
                 <SvgIcons
                   dimension="12px"
                   iconName="web"
                   fillColor="rgba(252, 197, 215, 1)"
                 />
               </div>
-              <div class="webBox">
+              <div className="webBox">
                 <SvgIcons
                   dimension="60px"
                   iconName="photo"
@@ -130,8 +130,8 @@ export default class ServicesSection extends Component {
                 />
               </div>
             </div>
-            <div class="digitalPhone">
-              <div class="phoneBox">
+            <div className="digitalPhone">
+              <div className="phoneBox">
                 <SvgIcons
                   dimension="60px"
                   iconName="appstore"
@@ -145,8 +145,8 @@ export default class ServicesSection extends Component {
             <h2> Digital Creations </h2>
           </div>
 
-          <button class="circleBtn circleBtnLight plusButton">
-            <span class="circleBtnIcon">+</span>
+          <button className="circleBtn circleBtnLight plusButton">
+            <span className="circleBtnIcon">+</span>
           </button>
         </Link>
         <Link
@@ -159,9 +159,9 @@ export default class ServicesSection extends Component {
               : this.state.passiveStyle
           }
         >
-          <div class="socialManagement">
+          <div className="socialManagement">
             <div className="socialManagementContent">
-              <div class="iconBox instaBox">
+              <div className="iconBox instaBox">
                 {" "}
                 <SvgIcons
                   dimension="100px"
@@ -169,7 +169,7 @@ export default class ServicesSection extends Component {
                   fillColor="#fff"
                 />{" "}
               </div>
-              <div class="iconBox tiktokBox">
+              <div className="iconBox tiktokBox">
                 {" "}
                 <SvgIcons
                   dimension="100px"
@@ -177,7 +177,7 @@ export default class ServicesSection extends Component {
                   fillColor="fff"
                 />{" "}
               </div>
-              <div class="iconBox youtubeBox">
+              <div className="iconBox youtubeBox">
                 {" "}
                 <SvgIcons
                   dimension="100px"
@@ -185,7 +185,7 @@ export default class ServicesSection extends Component {
                   fillColor="fff"
                 />{" "}
               </div>
-              <div class="iconBox facebookBox">
+              <div className="iconBox facebookBox">
                 {" "}
                 <SvgIcons
                   dimension="100px"
@@ -199,8 +199,8 @@ export default class ServicesSection extends Component {
             <h5> Socialmedia </h5>
             <h2> Management </h2>
           </div>
-          <button class="circleBtn circleBtnLight plusButton">
-            <span class="circleBtnIcon">+</span>
+          <button className="circleBtn circleBtnLight plusButton">
+            <span className="circleBtnIcon">+</span>
           </button>
         </Link>
       </div>

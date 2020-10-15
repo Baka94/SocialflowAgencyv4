@@ -75,9 +75,9 @@ export default class ProjectPage extends Component {
           }}
         ></div>
 
-        <div class="videoSectionRight">
-          <div class="seiteInfo">
-            <div class="seiteTitle">
+        <div className="videoSectionRight">
+          <div className="seiteInfo">
+            <div className="seiteTitle">
               <h5> {projectsData[this.state.currentProject].category} </h5>
               <h2>{projectsData[this.state.currentProject].title}</h2>
             </div>
@@ -87,7 +87,7 @@ export default class ProjectPage extends Component {
             <div className="seiteButtons">
               <button
                 onClick={() => this.props.history.goBack()}
-                class="circleBtn circleBtnDark"
+                className="circleBtn circleBtnDark"
               >
                 <span
                   style={{

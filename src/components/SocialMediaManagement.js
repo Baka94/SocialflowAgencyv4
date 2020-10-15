@@ -22,9 +22,9 @@ export default class SocialMediaManagement extends Component {
             className="socialPostContainer limitWidthContent transparentBlueGradientBack"
           >
             <div className={"socialPostFull"}>
-              <div class="socialManagement">
+              <div className="socialManagement">
                 <div className="socialManagementContent">
-                  <div class="iconBox instaBox">
+                  <div className="iconBox instaBox">
                     {" "}
                     <SvgIcons
                       dimension="100px"
@@ -32,7 +32,7 @@ export default class SocialMediaManagement extends Component {
                       fillColor="#fff"
                     />{" "}
                   </div>
-                  <div class="iconBox tiktokBox">
+                  <div className="iconBox tiktokBox">
                     {" "}
                     <SvgIcons
                       dimension="100px"
@@ -40,7 +40,7 @@ export default class SocialMediaManagement extends Component {
                       fillColor="fff"
                     />{" "}
                   </div>
-                  <div class="iconBox youtubeBox">
+                  <div className="iconBox youtubeBox">
                     {" "}
                     <SvgIcons
                       dimension="100px"
@@ -48,7 +48,7 @@ export default class SocialMediaManagement extends Component {
                       fillColor="fff"
                     />{" "}
                   </div>
-                  <div class="iconBox facebookBox">
+                  <div className="iconBox facebookBox">
                     {" "}
                     <SvgIcons
                       dimension="100px"
@@ -62,8 +62,8 @@ export default class SocialMediaManagement extends Component {
                 <h5> Socialmedia </h5>
                 <h1> Management </h1>
               </div>
-              <button class="circleBtn circleBtnLight plusButton">
-                <span class="circleBtnIcon">+</span>
+              <button className="circleBtn circleBtnLight plusButton">
+                <span className="circleBtnIcon">+</span>
               </button>
             </div>
           </div>

@@ -137,8 +137,8 @@ export default class TabView extends Component {
           >
             <div className="tabLabel">
               <h5> Branded Content </h5>{" "}
-              <button class="circleBtn circleBtnDark">
-                <span class="circleBtnIcon">+</span>
+              <button className="circleBtn circleBtnDark">
+                <span className="circleBtnIcon">+</span>
               </button>
             </div>
             <div className="tabContent">
@@ -150,8 +150,8 @@ export default class TabView extends Component {
                 and deliver real results.{" "}
               </p>
               <Link to={"/Contacts"}>
-                <button class="circleBtn circleBtnDark">
-                  <span class="circleBtnIcon">+</span>
+                <button className="circleBtn circleBtnDark">
+                  <span className="circleBtnIcon">+</span>
                   <h4> KNOW MORE </h4>
                 </button>
               </Link>
@@ -168,8 +168,8 @@ export default class TabView extends Component {
           >
             <div className="tabLabel">
               <h5> Business Insights </h5>{" "}
-              <button class="circleBtn circleBtnDark">
-                <span class="circleBtnIcon">+</span>
+              <button className="circleBtn circleBtnDark">
+                <span className="circleBtnIcon">+</span>
               </button>
             </div>
             <div className="tabContent">
@@ -181,8 +181,8 @@ export default class TabView extends Component {
                 efforts if necessary.{" "}
               </p>
               <Link to={"/Contacts"}>
-                <button class="circleBtn circleBtnDark">
-                  <span class="circleBtnIcon">+</span>
+                <button className="circleBtn circleBtnDark">
+                  <span className="circleBtnIcon">+</span>
                   <h4> KNOW MORE </h4>
                 </button>
               </Link>
@@ -199,8 +199,8 @@ export default class TabView extends Component {
           >
             <div className="tabLabel">
               <h5> Full Flexibility </h5>{" "}
-              <button class="circleBtn circleBtnDark">
-                <span class="circleBtnIcon">+</span>
+              <button className="circleBtn circleBtnDark">
+                <span className="circleBtnIcon">+</span>
               </button>
             </div>
             <div className="tabContent">
@@ -212,8 +212,8 @@ export default class TabView extends Component {
                 maximize results.{" "}
               </p>
               <Link to={"/Contacts"}>
-                <button class="circleBtn circleBtnDark">
-                  <span class="circleBtnIcon">+</span>
+                <button className="circleBtn circleBtnDark">
+                  <span className="circleBtnIcon">+</span>
                   <h4> KNOW MORE </h4>
                 </button>
               </Link>
@@ -221,37 +221,40 @@ export default class TabView extends Component {
           </div>
         </div>
         <div className="tabViewDisplayRight">
-          <div class="phoneContainer" style={this.state.containerPosStyle}>
-            <div class="phone">
+          <div className="phoneContainer" style={this.state.containerPosStyle}>
+            <div className="phone">
               <div
-                class="phoneContent"
+                className="phoneContent"
                 style={this.state.contentPosStyle}
               ></div>
-              <div class="socialMedia">
-                <div class="instaPost">
-                  <div class="instaProfile" style={this.state.profilePosStyle}>
+              <div className="socialMedia">
+                <div className="instaPost">
+                  <div
+                    className="instaProfile"
+                    style={this.state.profilePosStyle}
+                  >
                     <SvgIcons
                       dimension="25px"
                       iconName="user"
                       fillColor="#fff"
                     />
                   </div>
-                  <div class="instaBottomButtons">
-                    <div class="instaLike">
+                  <div className="instaBottomButtons">
+                    <div className="instaLike">
                       <SvgIcons
                         dimension="12px"
                         iconName="heart"
                         fillColor="#fff"
                       />
                     </div>
-                    <div class="instaComment">
+                    <div className="instaComment">
                       <SvgIcons
                         dimension="12px"
                         iconName="comment"
                         fillColor="#fff"
                       />
                     </div>
-                    <div class="instaShare">
+                    <div className="instaShare">
                       <SvgIcons
                         dimension="12px"
                         iconName="send"
@@ -259,18 +262,18 @@ export default class TabView extends Component {
                       />
                     </div>
                   </div>
-                  <div class="instaImage" style={this.state.imagePosStyle}>
+                  <div className="instaImage" style={this.state.imagePosStyle}>
                     <div
-                      class={
+                      className={
                         this.state.currentTab === 2
                           ? "graph graphActive"
                           : "graph"
                       }
                     >
-                      <div class="graphLine"></div>
-                      <div class="graphLine"></div>
-                      <div class="graphLine"></div>
-                      <div class="graphLine"></div>
+                      <div className="graphLine"></div>
+                      <div className="graphLine"></div>
+                      <div className="graphLine"></div>
+                      <div className="graphLine"></div>
                     </div>
                   </div>
                 </div>

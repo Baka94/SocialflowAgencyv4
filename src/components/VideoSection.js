@@ -17,29 +17,29 @@ export default class VideoSection extends Component {
   render() {
     return (
       <div className="videoSection">
-        <div class="videoSectionLeft">
-          <div class="tikenModule">
-            <div class="tiken firstTiken">
-              <div class="tikenTop">
+        <div className="videoSectionLeft">
+          <div className="tikenModule">
+            <div className="tiken firstTiken">
+              <div className="tikenTop">
                 <h2> 30+ </h2>
               </div>
-              <div class="tikenBottom">
+              <div className="tikenBottom">
                 <h6> Events Organized. </h6>
               </div>
             </div>
-            <div class="tiken secondTiken">
-              <div class="tikenTop">
+            <div className="tiken secondTiken">
+              <div className="tikenTop">
                 <h2> 12000+ </h2>
               </div>
-              <div class="tikenBottom">
+              <div className="tikenBottom">
                 <h6> Fans gathered together. </h6>
               </div>
             </div>
-            <div class="tiken thirdTiken">
-              <div class="tikenTop">
+            <div className="tiken thirdTiken">
+              <div className="tikenTop">
                 <h2> 10+ </h2>
               </div>
-              <div class="tikenBottom">
+              <div className="tikenBottom">
                 <h6> Clients on tour with us. </h6>
               </div>
             </div>
@@ -56,13 +56,13 @@ export default class VideoSection extends Component {
           Your browser does not support the video tag.
         </video>
 
-        <div class="videoSectionRight">
-          <div class="seiteInfo">
-            <div class="seiteTitle">
+        <div className="videoSectionRight">
+          <div className="seiteInfo">
+            <div className="seiteTitle">
               <h5> Live Events </h5>
               <h2> We Take Your Brand In Tour With Influencers</h2>
             </div>
-            <div class="seiteText">
+            <div className="seiteText">
               <p>
                 {" "}
                 We organize live events to let people see, touch, feel and enjoy
@@ -70,15 +70,15 @@ export default class VideoSection extends Component {
                 their fans and together, they share amazing stories.{" "}
               </p>
             </div>
-            <div class="seiteButtons">
+            <div className="seiteButtons">
               <Link to={"/Contacts"}>
-                <button class="circleBtn circleBtnDark">
-                  <span class="circleBtnIcon">+</span>
+                <button className="circleBtn circleBtnDark">
+                  <span className="circleBtnIcon">+</span>
                   <h4> FIND OUT MORE </h4>
                 </button>
               </Link>
               <Link to={"/Contacts"}>
-                <button class="simpleBtn simpleBtnDark">
+                <button className="simpleBtn simpleBtnDark">
                   <h4> CONTACT US </h4>
                 </button>
               </Link>

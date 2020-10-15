@@ -19,16 +19,16 @@ export default class DigitalCreations extends Component {
         <div className="fullSection">
           <div className="socialPostContainer limitWidthContent transparentBlueGradientBack">
             <div className="socialPostFull">
-              <div class="digitalCreations">
-                <div class="digitalPc">
-                  <div class="searchBox">
+              <div className="digitalCreations">
+                <div className="digitalPc">
+                  <div className="searchBox">
                     <SvgIcons
                       dimension="12px"
                       iconName="web"
                       fillColor="rgba(252, 197, 215, 1)"
                     />
                   </div>
-                  <div class="webBox">
+                  <div className="webBox">
                     <SvgIcons
                       dimension="60px"
                       iconName="photo"
@@ -36,8 +36,8 @@ export default class DigitalCreations extends Component {
                     />
                   </div>
                 </div>
-                <div class="digitalPhone">
-                  <div class="phoneBox">
+                <div className="digitalPhone">
+                  <div className="phoneBox">
                     <SvgIcons
                       dimension="60px"
                       iconName="appstore"
@@ -51,8 +51,8 @@ export default class DigitalCreations extends Component {
                 <h1> Digital Creations </h1>
               </div>
 
-              <button class="circleBtn circleBtnLight plusButton">
-                <span class="circleBtnIcon">+</span>
+              <button className="circleBtn circleBtnLight plusButton">
+                <span className="circleBtnIcon">+</span>
               </button>
             </div>
           </div>

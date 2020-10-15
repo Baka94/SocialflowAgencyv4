@@ -161,8 +161,8 @@ export default class Homepage extends Component {
             <ServicesSection />
           </div>
           <div className="fullSectionContent limitWidthContent dritteBottom">
-            <div class="unterseiteInfo">
-              <div class="unterseiteTitle">
+            <div className="unterseiteInfo">
+              <div className="unterseiteTitle">
                 <h5> Full Package </h5>
                 <h2> 360° Digital Presence </h2>
               </div>
