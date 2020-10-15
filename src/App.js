@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, withRouter, location } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 
 import Homepage from "./components/Homepage.js";
 import CaseHistory from "./components/CaseHistory";

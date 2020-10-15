@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import TitleText from "./TitleText.js";
 import SvgIcons from "./SvgIcons.js";
 
 import "./tabView.css";
@@ -26,7 +25,7 @@ export default class TabView extends Component {
   }
 
   switchTab(currentTab) {
-    let contentPos, imagePos, profilePos, containerPos;
+    let imagePos, profilePos, containerPos;
 
     let previousTab = this.state.currentTab;
 
