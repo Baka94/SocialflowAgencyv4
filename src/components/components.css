@@ -28,7 +28,6 @@
 .videoSection video {
   position: absolute;
   z-index: 10;
-  background: url(mel.jpg) no-repeat;
   background-size: 100% 100%;
   margin-left: 50vw;
   transform: translateX(-50%) translateY(-50%);
