@@ -20,7 +20,7 @@ export default class CaseHistoryPage extends Component {
       return (
         <Link to={"/ProjectPage/" + (item.id - 1)} className="vierCard">
           <FilterBlurImg img={item.imageCard} brightness={"dark"} />
-          <img src={item.logoImg} className="projectLogo"></img>
+          <img src={item.logoImg} alt="none" className="projectLogo"></img>
         </Link>
       );
     });

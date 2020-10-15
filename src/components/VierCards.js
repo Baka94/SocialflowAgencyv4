@@ -21,17 +21,29 @@ export default class VierCards extends Component {
         <div className="vierCardContent">
           <Link to={"/ProjectPage/0"} className="vierCard">
             <FilterBlurImg img={projectsData[0].imageCard} brightness={""} />
-            <img src={projectsData[0].logoImg} className="projectLogo"></img>
+            <img
+              src={projectsData[0].logoImg}
+              alt="none"
+              className="projectLogo"
+            ></img>
           </Link>
 
           <Link to={"/ProjectPage/1"} className="vierCard">
             <FilterBlurImg img={projectsData[1].imageCard} brightness={""} />
-            <img src={projectsData[1].logoImg} className="projectLogo"></img>
+            <img
+              src={projectsData[1].logoImg}
+              alt="none"
+              className="projectLogo"
+            ></img>
           </Link>
 
           <Link to={"/ProjectPage/3"} className="vierCard">
             <FilterBlurImg img={projectsData[3].imageCard} brightness={""} />
-            <img src={projectsData[3].logoImg} className="projectLogo"></img>
+            <img
+              src={projectsData[3].logoImg}
+              alt="none"
+              className="projectLogo"
+            ></img>
           </Link>
 
           <Link to={"/Projects"} className="vierCard vierCardLast">

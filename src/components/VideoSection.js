@@ -52,7 +52,10 @@ export default class VideoSection extends Component {
             /*src="https://www.tesla.com/ns_videos/charging_overview_hero.mp4"*/
             type="video/mp4"
           />
-          <img src="https://socialflowagency.com/wp-content/uploads/2019/05/VivienMarcucci.jpg" />
+          <img
+            src="https://socialflowagency.com/wp-content/uploads/2019/05/VivienMarcucci.jpg"
+            alt="nothing"
+          />
           Your browser does not support the video tag.
         </video>
 

@@ -10,19 +10,19 @@ export default class ProjectPage extends Component {
     super(props);
 
     this.state = {
-      currentProject: parseInt(this.props.match.params.Project),
-      nextProject: parseInt(this.props.match.params.Project) + 1
+      currentProject: parseInt(this.props.match.params.Project, 10),
+      nextProject: parseInt(this.props.match.params.Project, 10) + 1
     };
   }
 
   componentDidMount() {
+    var History = history;
     if (this.state.nextProject === projectsData.lenght - 1) {
       this.setState({
-        nextProject: 0
+        nextProject: 0,
+        history: History
       });
     }
-
-    console.log(this.state.currentProject + " next: " + this.state.nextProject);
   }
 
   render() {
